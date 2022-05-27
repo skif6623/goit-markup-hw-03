@@ -157,15 +157,17 @@ body {
 /* -----------------------HERO-------------------------------------- */
 
 .hero {
+	padding-top: 200px;
+	padding-bottom: 200px;
+
 	text-align: center;
+
 	background-color: var(--bg-color);
 }
 
-.hero-wrap {
-	padding: 200px 200px;
-}
-
 .hero-title {
+	max-width: 696px;
+	margin: 0 auto;
 	margin-bottom: 30px;
 
 	font-weight: 900;
@@ -275,8 +277,13 @@ body {
 	margin-right: 0;
 }
 
-.team-item-title {
+.team-wrap {
 	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.team-item-title {
+	margin-bottom: 10px;
 
 	font-weight: 500;
 	font-size: 16px;
@@ -284,8 +291,6 @@ body {
 }
 
 .team-item-text {
-	padding-bottom: 30px;
-
 	font-size: 16px;
 	text-align: center;
 	color: var(--main-text-color);
